@@ -1,0 +1,1 @@
+# Idolatria-Colorada-sem-banco-de-dados
