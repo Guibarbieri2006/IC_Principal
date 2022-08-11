@@ -1,1 +1,1 @@
-# Idolatria-Colorada-sem-banco-de-dados
+# Idolatria Colorada Principal
