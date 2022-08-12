@@ -1,1 +1,1 @@
-# Idolatria Colorada Principal
+# Ídolos Do Gigante
