@@ -19,7 +19,7 @@ include_once './includes/_dados.php';
 
 <?php
 
-if (isset ( $_POST['txtNumero']) ) {;
+if (isset ( $_POST['txtNome']) ) {;
     echo '<h5>Pix recebido com sucesso! Em breve você receberá atualizações do seu pedido através do seu e-mail.</h5>';
 }
 ?>
