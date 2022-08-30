@@ -14,7 +14,7 @@ $id = $_GET['id'];
              <h2 class ="text-white"><?php echo $produtos [$id]['descricao'];?></h2>
              <h3 class ="text-white"><?php echo $produtos [$id]['preco'];?></h3>
              <p class="text-white"><b>Categoria: </b><?php echo $produtos[$id]['categoria'];?></p>
-             <h1><b>Formas de Pagamento</b></h1>
+             <h1><b></b></h1>
                 <p><img class="payment__img" src="./content/pix1.png"><a href="pix.php"> Comprar via Pix</a></p> 
                 <p><img class="payment__img" src="./content/cartao1.png"><a href="cartao.php"> Comprar via Cartão</a></p>
                 <p><img class="payment__img" src="./content/boleto1.png"><a href="boleto.php"> Comprar via Boleto Bancário</a></p>
