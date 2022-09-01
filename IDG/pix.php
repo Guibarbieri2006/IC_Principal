@@ -4,6 +4,8 @@ include_once './includes/_header.php';
 include_once './includes/_dados.php';
 ?>
 
+<h2  style=" text-align: center; margin-top:50px; margin-bottom:40px; "class="text-white" >Pagamento via Pix</h2 >
+
 <form action="./pix.php" method="post">
     <ul style="margin: 2cm;">
         <label for="txNome"class="text-white">Nome do comprador</label>
@@ -13,7 +15,7 @@ include_once './includes/_dados.php';
         <label for="txtCodigo"class="text-white">Código de Segurança</label>
         <input type="text" name="txtCodigo" id="txtCodigo">
         <br>
-        <input type="submit" value="Efetuar Compra" class="btn btn-danger">
+        <input type="submit" value="Efetuar Compra via Pix" class="btn btn-danger">
     </ul>
 </form>
 

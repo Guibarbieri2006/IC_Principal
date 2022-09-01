@@ -13,9 +13,11 @@
                     <a class="nav-link" href="./produtos.php">Produtos</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="./categorias.php">Categorias</a>
+                </li>    
+                <li class="nav-item">
                     <a class="nav-link" href="./contato.php">Contato</a>
                 </li>
-
             </ul>
         </div>
     </nav>

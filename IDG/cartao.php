@@ -3,11 +3,9 @@ include_once './includes/_head.php';
 include_once './includes/_header.php';
 include_once './includes/_dados.php';
 ?>
-<?php
-if (isset ( $_POST['txtNumero']) ) {;
-    echo '<h5>Compra efetuada com sucesso! Em breve você receberá atualizações do seu pedido através do seu e-mail.</h5>';
-}
-?>
+
+<h2  style =" text-align: center; margin-top:50px; margin-bottom:40px; "class="text-white" >Pagamento via Cartão</h2 >
+
 <form action="./cartao.php" method="post">
     <ul style="margin: 2cm;">
         <label for="txtNumero"class="text-white">Número do Cartão</label>
@@ -24,9 +22,16 @@ if (isset ( $_POST['txtNumero']) ) {;
         <label for="txtVencimento"class="text-white">Data de nascimento</label>
         <input type="text" name="txtData" id="txtData">
         <br>
-        <input type="submit" value="Efetuar Compra" class="btn btn-danger">
+        <input type="submit" value="Efetuar Compra via Cartão" class="btn btn-danger">
     </ul>
 </form>
+
+<?php
+if (isset ( $_POST['txtNumero']) ) {;
+    echo '<h5>Compra efetuada com sucesso! Em breve você receberá atualizações do seu pedido através do seu e-mail.</h5>';
+}
+?>
+
 <?php
 include_once './includes/_footer.php';
 ?>
