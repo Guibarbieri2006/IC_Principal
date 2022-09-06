@@ -13,12 +13,12 @@ include_once './includes/_header.php';
 
 for ($i = 0; $i <30 ; $i++) {
 ?>
-        <div class = "card m-3" style = "width: 18rem;">
+        <div class="card m-3" style="width: 20rem;">
         <img src="./content/<?php echo $produtos[$i]['imagem'];?>" class= "card-img-top" alt = "...">
-        <div class = "card-body">
-        <h5 class = "card-title"><?php echo $produtos[$i]['nome'];?></h5>
-        <p class = "card-text"><?php echo $produtos[$i]['descricao'];?></p>
-        <a href = "produto-detalhe.php?id=<?php echo $i;?>" class = "btn btn-danger">Leia mais sobre ele</a>
+        <div class="card-body">
+        <h5 class="card-title" style="text-align: center;"><?php echo $produtos[$i]['nome'];?></h5>
+        <p class="card-text" style="text-align: center;"><?php echo $produtos[$i]['descricao'];?></p>
+        <a /*style="text-align: center;"*/ href="produto-detalhe.php?id=<?php echo $i;?>" class="btn btn-danger">Leia mais sobre ele</a>
     </div>
 </div>
 

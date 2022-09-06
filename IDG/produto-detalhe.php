@@ -15,11 +15,10 @@ $id = $_GET['id'];
              <h3 class ="text-white"><?php echo $produtos [$id]['preco'];?></h3>
              <p class="text-white"><b>Categoria: </b><?php echo $produtos[$id]['categoria'];?></p>
              <h1><b></b></h1>
-                <p><img class="payment__img" src="./content/pix1.png"><a href="pix.php"> Comprar via Pix</a></p> 
-                <p><img class="payment__img" src="./content/cartao1.png"><a href="cartao.php"> Comprar via Cartão</a></p>
-                <p><img class="payment__img" src="./content/boleto1.png"><a href="boleto.php"> Comprar via Boleto Bancário</a></p>
-             <a href="index.php"class="">Voltar</a>
-
+                <p><img class="payment__img" src="./content/pix1.png"><a href="pix.php" class=text-white> Comprar via Pix</a></p> 
+                <p><img class="payment__img" src="./content/cartao1.png"><a href="cartao.php" class=text-white> Comprar via Cartão</a></p>
+                <p><img class="payment__img" src="./content/boleto1.png"><a href="boleto.php" class=text-white> Comprar via Boleto Bancário</a></p>
+             <a href="index.php" class=text-white>Voltar</a>
 
             </div>
 <div class="w-50">
