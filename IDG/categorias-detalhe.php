@@ -18,7 +18,7 @@ for ($i = 0; $i <30 ; $i++) {
         <div class="card-body">
         <h5 class="card-title" style="text-align: center;"><?php echo $produtos[$i]['nome'];?></h5>
         <p class="card-text" style="text-align: center;"><?php echo $produtos[$i]['categoria'];?></p>
-        <a /*style="text-align: center;"*/ href="produto-detalhe.php?id=<?php echo $i;?>" class="btn btn-danger">Leia mais sobre ele</a>
+        <a style="align-items: center;" href="produto-detalhe.php?id=<?php echo $i;?>" class="btn btn-danger">Leia mais sobre ele</a>
     </div>
 </div>
 

@@ -1,5 +1,4 @@
 <?php
-
 include_once './includes/_dados.php';
 include_once './includes/_head.php';
 include_once './includes/_header.php';
@@ -17,8 +16,9 @@ for ($i = 0; $i <30 ; $i++) {
         <img src="./content/<?php echo $produtos[$i]['imagem'];?>" class= "card-img-top" alt = "...">
         <div class="card-body">
         <h5 class="card-title" style="text-align: center;"><?php echo $produtos[$i]['nome'];?></h5>
-        <p class="card-text" style="text-align: center;"><?php echo $produtos[$i]['descricao'];?></p>
-        <a /*style="text-align: center;"*/ href="produto-detalhe.php?id=<?php echo $i;?>" class="btn btn-danger">Leia mais sobre ele</a>
+        <p class="card-text" style="text-align: center;"><?php echo $produtos[$i]['posicao'];?></p>
+        <p class="card-text" style="text-align: center;"><?php echo $produtos[$i]['tempo'];?></p>
+        <a href="produto-detalhe.php?id=<?php echo $i;?>" style="width: 278px" class="btn btn-danger">Leia mais sobre ele</a>
     </div>
 </div>
 

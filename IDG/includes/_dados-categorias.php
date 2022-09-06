@@ -9,4 +9,9 @@ $produtos = array(
     5 => array('nome'=>'Década de 2000', 'imagem'=>'2000.png', 'categoria'=>'Década de 2000'),
     
 );
-?>   
+?>  
+
+<?php
+
+
+?>
