@@ -8,13 +8,13 @@ include_once './includes/_dados.php';
 
 <form action="./boleto.php" method="post">
     <ul style="margin: 2cm;">
-        <label for="txtNome"class="text-white">Nome completo do comprador</label>
-        <input type="text" name="txtNome" id="txtNome">
-        <label for="txtEndereco"class="text-white">Endereço de E-mail</label>
-        <input type="text" name="txtEndereco" id="txtEndereco">
+        <label for="txtNome"class="text-white" style="text-align: center; font-size: 15px">Nome completo do comprador</label>
+            <input type="text" name="txtNome" id="txtNome">
+        <label for="txtEndereco"class="text-white" style="text-align: center">Endereço de E-mail</label>
+            <input type="text" name="txtEndereco" id="txtEndereco">
 
         <br>
-        <input type="submit" value="Efetuar Compra via Boleto" class="btn btn-danger">
+            <input type="submit" value="Efetuar Compra via Boleto" class="btn btn-danger">
     </ul>
 </form>
 

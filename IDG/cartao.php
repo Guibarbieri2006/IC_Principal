@@ -4,25 +4,25 @@ include_once './includes/_header.php';
 include_once './includes/_dados.php';
 ?>
 
-<h2  style =" text-align: center; margin-top:50px; margin-bottom:40px; "class="text-white" >Pagamento via Cartão</h2 >
+<h2  style ="text-align: center; margin-top:35px; margin-bottom:40px; "class="text-white" >Pagamento via Cartão</h2 >
 
 <form action="./cartao.php" method="post">
     <ul style="margin: 2cm;">
-        <label for="txtNumero"class="text-white">Número do Cartão</label>
-        <input type="text" name="txtNumero" id="txtNumero">
-        <label for="txtVencimento"class="text-white">Vencimento</label>
-        <input type="text" name="txtVencimento" id="txtVencimento">
-        <label for="txtCodigo"class="text-white">Código de Segurança</label>
-        <input type="text" name="txtCodigo" id="txtCodigo">
+        <label for="txtNumero"class="text-white" style ="text-align: center">Número do Cartão</label>
+            <input type="text" name="txtNumero" id="txtNumero">
+        <label for="txtVencimento"class="text-white" style ="text-align: center">Vencimento</label>
+            <input type="text" name="txtVencimento" id="txtVencimento">
+        <label for="txtCodigo"class="text-white" style ="text-align: center">Código de Segurança</label>
+            <input type="text" name="txtCodigo" id="txtCodigo">
     
-        <label for="txtNome"class="text-white">Nome do titular</label>
-        <input type="text" name="txtNome" id="txtNome">
-        <label for="txtVencimento"class="text-white">CPF do titular</label>
-        <input type="text" name="txtCPF" id="txtCPF">
-        <label for="txtVencimento"class="text-white">Data de nascimento</label>
-        <input type="text" name="txtData" id="txtData">
+        <label for="txtNome"class="text-white" style ="text-align: center">Nome do titular</label>
+            <input type="text" name="txtNome" id="txtNome">
+        <label for="txtVencimento"class="text-white" style ="text-align: center">CPF do titular</label>
+            <input type="text" name="txtCPF" id="txtCPF">
+        <label for="txtVencimento"class="text-white" style ="text-align: center">Data de nascimento</label>
+            <input type="text" name="txtData" id="txtData">
         <br>
-        <input type="submit" value="Efetuar Compra via Cartão" class="btn btn-danger">
+            <input type="submit" value="Efetuar Compra via Cartão" class="btn btn-danger">
     </ul>
 </form>
 

@@ -8,13 +8,13 @@ include_once './includes/_dados.php';
 
 <form action="./pix.php" method="post">
     <ul style="margin: 2cm;">
-        <label for="txNome"class="text-white">Nome do comprador</label>
-        <input type="text" name="txtNome" id="txtNome">
-        <label for="txtChave"class="text-white">Tipo de chave</label>
-        <label for="txtChave"class="text-white" style="font-size:9px">(CPF, CNPJ, E-mail, Nº de telefone)</label>
-        <input type="text" name="txtChave" id="txtChave">
-        <label for="txtCodigo"class="text-white">Código de Segurança</label>
-        <input type="text" name="txtCodigo" id="txtCodigo">
+        <label for="txNome"class="text-white" style="text-align: center">Nome do comprador</label>
+            <input type="text" name="txtNome" id="txtNome">
+        <label for="txtChave"class="text-white" style="text-align: center">Tipo de chave</label>
+        <label for="txtChave"class="text-white" style="font-size:13.5px; text-align: center">(CPF, CNPJ, E-mail, Nº de telefone)</label>
+            <input type="text" name="txtChave" id="txtChave">
+        <label for="txtCodigo"class="text-white" style="text-align: center">Código de Segurança</label>
+            <input type="text" name="txtCodigo" id="txtCodigo">
         <br>
         <input type="submit" value="Efetuar Compra via Pix" class="btn btn-danger">
     </ul>

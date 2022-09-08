@@ -2,7 +2,7 @@
 
 
 <footer>
-
+<h1 tabela de preços: Mundial: 10R$ | Copa Libertadores: 9R$ | Campeonato Brasileiro: 8R$ | Copa Sul-Americana: 7R$ | Copa Do Brasil: 6R$ | Recopa Sul-Americana: 5R$ | Campeonato Gaúcho: 2R$ |>
 </footer>
 
 
