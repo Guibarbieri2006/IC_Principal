@@ -16,9 +16,9 @@ for ($i = 12; $i <18 ; $i++) {
         <div class = "card m-3" style = "width: 18rem;">
         <img src="./content/<?php echo $produtos[$i]['imagem'];?>" class= "card-img-top" alt = "...">
         <div class = "card-body">
-        <h5 class = "card-title"><?php echo $produtos[$i]['nome'];?></h5>
-        <p class = "card-text"><?php echo $produtos[$i]['posicao'];?></p>
-        <p class = "card-text"><?php echo $produtos[$i]['tempo'];?></p>
+        <h5 class = "card-title" style="text-align: center;"><?php echo $produtos[$i]['nome'];?></h5>
+        <p class = "card-text" style="text-align: center;"><?php echo $produtos[$i]['posicao'];?></p>
+        <p class = "card-text" style="text-align: center;"><?php echo $produtos[$i]['tempo'];?></p>
         <a href = "produto-detalhe.php?id=<?php echo $i;?>" class = "btn btn-danger">Leia mais sobre ele</a>
 
     </div>
