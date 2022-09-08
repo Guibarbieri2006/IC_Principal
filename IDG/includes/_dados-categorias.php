@@ -10,8 +10,3 @@ $produtos = array(
     
 );
 ?>  
-
-<?php
-
-
-?>
