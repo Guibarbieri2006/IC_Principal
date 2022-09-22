@@ -3,7 +3,7 @@
         
         <img src="./content/logo-ic1.png">
         
-        <a class="navbar-brand" href="#">Ídolos Do Gigante</a>
+        <a class="navbar-brand" href="./produtos.php">Ídolos Do Gigante</a>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
                 <li class="nav-item active">

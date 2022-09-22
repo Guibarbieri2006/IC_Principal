@@ -6,7 +6,7 @@ include_once './includes/_header.php';
 ?>
 
 <div class = "container">
-    <h2 class="mt-5 text-center title" >Destaques</h2>
+    <h2 class="mt-5 text-center title">Destaques</h2>
     <div class="mt-3 d-flex flex-wrap justify-content-around">
         
         <?php
