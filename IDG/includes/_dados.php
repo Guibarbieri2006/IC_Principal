@@ -1,6 +1,6 @@
 <?php
 
-$categorias = array(0=>'Década de 1940', 1=>'Década de 1950', 2=>'Década de 1960', 3=>'Década de 1970', 4=>'Década de 1980', 5=>'Década de 2000');
+$categorias = array(0=>'1940', 1=>'1950', 2=>'1960', 3=>'1970', 4=>'1980', 5=>'2000');
 
 $produtos = array(
     0 => array('nome'=>'Alex', 'preco'=>'R$43.00','posicao'=>'Meia', 'tempo'=>'2004-2009/2013-2016', 'imagem'=>'alex1.jpg', 'categoria'=>5),

@@ -11,7 +11,7 @@ include_once './includes/_header.php';
         
         <?php
 
-for ($i = 0; $i <30 ; $i++) {
+for ($i = 0; $i <1 ; $i++) {
 ?>
         <div class="card m-3" style="width: 20rem;">
         <img src="./content/<?php echo $produtos[$i]['imagem'];?>" class= "card-img-top" alt = "...">

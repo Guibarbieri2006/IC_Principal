@@ -1,6 +1,6 @@
 <?php
 
-include_once './includes/_dados-categorias.php';
+include_once './includes/_dados-1980.php';
 include_once './includes/_head.php';
 include_once './includes/_header.php';
 ?>
@@ -11,7 +11,7 @@ include_once './includes/_header.php';
         
         <?php
 
-for ($i = 0; $i <30 ; $i++) {
+for ($i = 0; $i <2 ; $i++) {
 ?>
         <div class="card m-3" style="width: 20rem;">
         <img src="./content/<?php echo $produtos[$i]['imagem'];?>" class= "card-img-top" alt = "...">

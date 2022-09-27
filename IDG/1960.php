@@ -1,6 +1,6 @@
 <?php
 
-include_once './includes/_dados-categorias.php';
+include_once './includes/_dados-1960.php';
 include_once './includes/_head.php';
 include_once './includes/_header.php';
 ?>
@@ -11,7 +11,7 @@ include_once './includes/_header.php';
         
         <?php
 
-for ($i = 0; $i <30 ; $i++) {
+for ($i = 0; $i <1 ; $i++) {
 ?>
         <div class="card m-3" style="width: 20rem;">
         <img src="./content/<?php echo $produtos[$i]['imagem'];?>" class= "card-img-top" alt = "...">
@@ -19,7 +19,7 @@ for ($i = 0; $i <30 ; $i++) {
         <h5 class="card-title" style="text-align: center;"><?php echo $produtos[$i]['nome'];?></h5>
         <p class="card-text" style="text-align: center;"><?php echo $produtos[$i]['tempo'];?></p>
         <a style="width: 278px;" href="produto-detalhe.php?id=<?php echo $i;?>" class="btn btn-danger">Leia mais sobre ele</a>
-    </div>
+   </div>
 </div>
 
             
