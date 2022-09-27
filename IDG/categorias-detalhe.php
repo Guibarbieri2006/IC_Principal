@@ -1,5 +1,4 @@
 <?php
-
 include_once './includes/_dados-categorias.php';
 include_once './includes/_head.php';
 include_once './includes/_header.php';

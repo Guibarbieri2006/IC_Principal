@@ -5,9 +5,9 @@ $categorias = array(0=>'Década de 1940', 1=>'Década de 1950', 2=>'Década de 1
 $produtos = array(
     0 => array('nome'=>'Alex', 'preco'=>'R$43.00','posicao'=>'Meia', 'tempo'=>'2004-2009/2013-2016', 'imagem'=>'alex1.jpg', 'categoria'=>5),
     1 => array('nome'=>'Benitez', 'preco'=>'R$8.00','posicao'=>'Goleiro', 'tempo'=>'1977/1978-1983', 'imagem'=>'benitez1.jpg', 'categoria'=>3),
-    2 => array('nome'=>'Bolívar', 'preco'=>'R$40.00','posicao'=>'Zagueiro', 'tempo'=>'2003-2006/2009-2012', 'imagem'=>'bolivar1.jpg', 'categoria'=>'5'),
-    3 => array('nome'=>'Carlitos', 'preco'=>'R$18.00','posicao'=>'Atacante', 'tempo'=>'1938-1951', 'imagem'=>'carlitos1.jpg', 'categoria'=>'0'),
-    4 => array('nome'=>'Claudiomiro', 'preco'=>'R$14.00','posicao'=>'Atacante', 'tempo'=>'1967-1974', 'imagem'=>'claudiomiro1.jpg', 'categoria'=>'2'),
+    2 => array('nome'=>'Bolívar', 'preco'=>'R$40.00','posicao'=>'Zagueiro', 'tempo'=>'2003-2006/2009-2012', 'imagem'=>'bolivar1.jpg', 'categoria'=>5),
+    3 => array('nome'=>'Carlitos', 'preco'=>'R$18.00','posicao'=>'Atacante', 'tempo'=>'1938-1951', 'imagem'=>'carlitos1.jpg', 'categoria'=>0),
+    4 => array('nome'=>'Claudiomiro', 'preco'=>'R$14.00','posicao'=>'Atacante', 'tempo'=>'1967-1974', 'imagem'=>'claudiomiro1.jpg', 'categoria'=>2),
     5 => array('nome'=>'Clemer', 'preco'=>'R$43.00','posicao'=>'Goleiro', 'tempo'=>'2002-2010', 'imagem'=>'clemer1.jpg', 'categoria'=>5),
     6 => array('nome'=>'Dalessandro', 'preco'=>'R$33.00','posicao'=>'Meia', 'tempo'=>'2008-2022', 'imagem'=>'dalessandro1.jpg', 'categoria'=>5),
     7 => array('nome'=>'Elías Figueroa', 'preco'=>'R$30.00','posicao'=>'Zagueiro', 'tempo'=>'1971-1976', 'imagem'=>'elias-figueroa1.jpg', 'categoria'=>5),

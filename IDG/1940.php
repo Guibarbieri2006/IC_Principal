@@ -6,7 +6,7 @@ include_once './includes/_header.php';
 ?>
 
 <div class = "container">
-    <h2 class="mt-5 text-center title" >Década de 1940</h2>
+    <h2 class="mt-5 text-center title" style="font-family:times-new-roman;">Década de 1940</h2>
     <div class="mt-3 d-flex flex-wrap justify-content-around">
         
         <?php
@@ -28,7 +28,7 @@ for ($i = 0; $i <2 ; $i++) {
     }
     ?>
 </div>
-</div>
+</div> 
 <?php
 // include do footer
 include_once './includes/_footer.php';
